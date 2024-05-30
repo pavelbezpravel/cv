@@ -1,8 +1,9 @@
-name: Build CV
+name: build
 on:
   push:
     branches:
       - '*'
+  workflow_call:
 jobs:
   render-paper:
     runs-on: ubuntu-latest
