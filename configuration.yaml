@@ -1,0 +1,169 @@
+contacts:
+  name: Pavel Talashchenko
+  title: Software Engineer
+  email: p.talashchenko@gmail.com
+  telegram:
+    url: t.me/pavelbezpravel
+    displayText: pavelbezpravel
+  phone: "+79992007719"
+  address: "Saint Petersburg, Russia"
+  linkedin:
+    url: https://www.linkedin.com/in/pavelbezpravel
+    displayText: pavelbezpravel
+  github:
+    url: https://github.com/pavelbezpravel
+    displayText: pavelbezpravel
+
+education:
+  - university:
+      name: Saint Petersburg Electrotechnical University "LETI"
+      url: "https://etu.ru/en/university"
+    from: "2022"
+    to: "2024"
+    degree: "M.Sc."
+    major: Computer Science
+    specialization: Software Engineering
+    track: Development of distributed software systems
+    thesis: NoSQL Adapter Development for YDB Database Based on Etcd Protocol
+
+  - university:
+      name: Saint Petersburg Electrotechnical University "LETI"
+      url: "https://etu.ru/en/university"
+    from: "2018"
+    to: "2022"
+    degree: "B.Sc."
+    major: Computer Science
+    specialization: Information Systems and Technologies
+    track: Information management systems
+    thesis: Development of a Software System for Studying the Linux Namespaces Feature
+
+skills:
+  - name: Programming Languages
+    items:
+      - C++20
+      - Python3
+      - Bash
+  - name: Frameworks and libraries
+    items:
+      - userver
+      - Boost
+      - gRPC
+  - name: Databases
+    items:
+      - YDB
+      - PostgreSQL
+      - etcd
+  - name: Developer Tools
+    items:
+      - git
+      - CMake
+      - conan
+  - name: CI/CD and Cloud
+    items:
+      - Docker
+      - Kubernetes
+      - GitHub Actions
+
+jobs:
+  - position: Career break
+    company:
+      name: Master thesis's writing
+      url: https://github.com/pavelbezpravel/ydb
+    from: "Nov. 2023"
+    to: "May 2024"
+    address: Saint Petersburg, Russia
+    description: Worked on YDB - an open source Distributed SQL Database that combines high availability and scalability with strict consistency and ACID transactions.
+    achievements:
+      - Implemented an etcd API over YDB.
+      - Introduced new logic for data storage and management in YDB application.
+      - Benchmarked etcd and YDB.
+      - Fixed some bugs in usever framework while developed external etcd-ydb serivce (prototype).
+    stack:
+      - C++20
+      - YDB
+      - etcd
+      - CMake
+      - conan
+      - yatool
+      - Docker
+      - devcontainers
+      - actor system
+      - userver
+      - Yandex Cloud
+  - position: Software Engineer
+    company:
+      name: PROTEI
+      url: https://protei.ru/
+    from: "Apr. 2023"
+    to: "Oct. 2023"
+    address: Saint Petersburg, Russia
+    description: Worked on a high-load C++20 backend for Evolved Packet Core.
+    achievements:
+      - Developed S1AP load balancer for the major mobile provider using C++20 and epoll engine.
+      - Designed and implemented an asynchronous multithreaded SCTP-server using Boost.Asio and C++20 coroutines that successfully handled 50K client connections.
+      - Migrated projects from legacy corporate build system to the CMake with modern CMake principles.
+      - Introduced dependency management via CMake FetchContent module instead of manual management via several methods.
+      - Automated build pipeline and introduced local build with CMake + Docker toolchain.
+      - Held a keynote for my team about build systems, CMake, Docker, best practices and motivation to use them.
+    stack:
+      - C++20
+      - CMake
+      - Boost
+      - Linux
+      - Docker
+      - Jenkins
+      - Bash
+  - position: Software Engineer
+    company:
+      name: Security Code
+      url: https://www.securitycode.ru/
+    from: "Mar. 2021"
+    to: "Nov. 2022"
+    address: Saint Petersburg, Russia
+    description: Worked on an ambitious product called vGate to protect our customer's high-scaled virtual infrastructure.
+    achievements:
+      - Key contributor in a hypervisor-layer firewall for VMware ESXi.
+      - Separated the logic of monolithic gRPC-service into several independents once.
+      - Reduced the number of gRPC-requests during the operation to one, simplified the logic, guaranteed the atomicity of operation and data consistency.
+      - Participated in requirements engineering for a new core service.
+      - Developed command-line tools for granular configuration of product functionality.
+      - Developed client-server application for researching and debugging the stateful packet inspection functionality in a hypervisor-layer firewall.
+    stack:
+      - C++17
+      - CMake
+      - Boost
+      - gRPC
+      - Linux
+      - Python3
+      - PostgreSQL
+      - Bash
+      - VMware ESXi
+      - VMware vSphere
+
+activities:
+  - activity: Head of curators community
+    company:
+      name: ETU "LETI"
+      url: "https://etu.ru/en/university"
+    from: "May 2022"
+    to: "Apr. 2023"
+    description: >
+      Developed educational programs and general trainings, held events.
+  - activity: Team lead of the faculty curator team
+    company:
+      name: ETU "LETI"
+      url: "https://etu.ru/en/university"
+    from: "May 2021"
+    to: "Apr. 2023"
+    description: >
+      Proactive and responsible team player focused on self-performance. Led a team of 30 people, interviewed newcomers.
+      Conducted lectures and practices about informal education
+  - activity: Curator for first-year students
+    company:
+      name: ETU "LETI"
+      url: "https://etu.ru/en/university"
+    from: "May 2019"
+    to: "Apr. 2021"
+    description: >
+      Accompanied new students throughout their first year of study in order to help them to quickly adapt to ETU system and student life.
+      The work of curators makes first-year students to integrate into the life of the university and the campus in general.
