@@ -1,0 +1,12 @@
+name: Build CV
+on:
+  push:
+    branches:
+      - main
+jobs:
+  render-paper:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: typst-community/setup-typst@v3
+      - run: typst compile main.typ cv.pdf
