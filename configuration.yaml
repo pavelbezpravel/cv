@@ -82,6 +82,7 @@ jobs:
       - C++20
       - YDB
       - etcd
+      - gRPC
       - CMake
       - conan
       - yatool
