@@ -37,7 +37,7 @@
         eval(settings.font.size.education_description),
         font: settings.font.minor_highlight,
     )
-    Highly qualified *software engineer* with 2+ years of experience in *C++ development*, have strong knowledge in *multithreading*, interested in *DevOps*, now seeking opportunities to excel in the realms of high-load distributed systems development.
+    #configuration.summary.description
   ]
 
   = Education

@@ -13,7 +13,6 @@ contacts:
   github:
     url: https://github.com/pavelbezpravel
     displayText: pavelbezpravel
-
 education:
   - university:
       name: Saint Petersburg Electrotechnical University "LETI"
@@ -25,7 +24,6 @@ education:
     specialization: Software Engineering
     track: Development of distributed software systems
     thesis: NoSQL Adapter Development for YDB Database Based on Etcd Protocol
-
   - university:
       name: Saint Petersburg Electrotechnical University "LETI"
       url: "https://etu.ru/en/university"
@@ -36,7 +34,11 @@ education:
     specialization: Information Systems and Technologies
     track: Information management systems
     thesis: Development of a Software System for Studying the Linux Namespaces Feature
-
+summary:
+  description: >
+    Highly qualified software engineer with 2+ years of experience in C++ development.
+    Have strong knowledge in multithreading, interested in DevOps.
+    Now seeking opportunities to excel in the realms of high-load distributed systems development.
 skills:
   - name: Programming Languages
     items:
@@ -63,7 +65,6 @@ skills:
       - Docker
       - Kubernetes
       - GitHub Actions
-
 jobs:
   - position: Master thesis writing
     company:
@@ -139,7 +140,6 @@ jobs:
       - Bash
       - VMware ESXi
       - VMware vSphere
-
 activities:
   - activity: Head of curators community
     company:
