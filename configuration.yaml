@@ -77,20 +77,19 @@ jobs:
       - Implemented an etcd API over YDB.
       - Introduced new logic for data storage and management in YDB application.
       - Benchmarked etcd and YDB.
-      - Fixed some bugs in usever framework while developed external etcd-ydb serivce (prototype).
+      - Fixed some CMake issues in usever framework while developed external etcd-ydb service.
     stack:
       - C++20
       - YDB
       - etcd
       - gRPC
-      - CMake
-      - conan
+      - actor system
       - yatool
       - Docker
-      - devcontainers
-      - actor system
       - userver
-      - Yandex Cloud
+      - CMake
+      - conan
+      - devcontainers
   - position: Software Engineer
     company:
       name: PROTEI
