@@ -65,9 +65,9 @@ skills:
       - GitHub Actions
 
 jobs:
-  - position: Career break
+  - position: Master thesis writing
     company:
-      name: Master thesis's writing
+      name: Career break
       url: https://github.com/pavelbezpravel/ydb
     from: "Nov. 2023"
     to: "May 2024"
